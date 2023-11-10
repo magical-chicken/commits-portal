@@ -85,7 +85,7 @@ const email = ""; // github email
                                 },
                                 "tree": "${tree["sha"]}"
                             }`
-                    }).then(async (response) => response.json())
+                    }).then((response) => response.json())
 
                 return res["sha"]
 
